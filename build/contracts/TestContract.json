@@ -1,0 +1,216 @@
+{
+  "contractName": "TestContract",
+  "abi": [
+    {
+      "inputs": [],
+      "payable": false,
+      "stateMutability": "nonpayable",
+      "type": "constructor"
+    }
+  ],
+  "bytecode": "0x60606040523415600e57600080fd5b600160008190555060358060236000396000f3006060604052600080fd00a165627a7a72305820298d51dae6cfcf707d874acf61c376d488ac580457cb85c29810c0bc049bd1b60029",
+  "deployedBytecode": "0x6060604052600080fd00a165627a7a72305820298d51dae6cfcf707d874acf61c376d488ac580457cb85c29810c0bc049bd1b60029",
+  "sourceMap": "26:99:3:-;;;69:53;;;;;;;;115:1;108:4;:8;;;;26:99;;;;;;",
+  "deployedSourceMap": "26:99:3:-;;;;;",
+  "source": "pragma solidity ^0.4.17;\n\ncontract TestContract {\n\n   uint test;\n\n   function TestContract() public {\n      test = 1;\n   }\n\n}\n",
+  "sourcePath": "/Users/robbertvermeulen/Workspace/Ethereum/FoodimusCrowdsale/contracts/TestContract.sol",
+  "ast": {
+    "attributes": {
+      "absolutePath": "/Users/robbertvermeulen/Workspace/Ethereum/FoodimusCrowdsale/contracts/TestContract.sol",
+      "exportedSymbols": {
+        "TestContract": [
+          235
+        ]
+      }
+    },
+    "children": [
+      {
+        "attributes": {
+          "literals": [
+            "solidity",
+            "^",
+            "0.4",
+            ".17"
+          ]
+        },
+        "id": 224,
+        "name": "PragmaDirective",
+        "src": "0:24:3"
+      },
+      {
+        "attributes": {
+          "baseContracts": [
+            null
+          ],
+          "contractDependencies": [
+            null
+          ],
+          "contractKind": "contract",
+          "documentation": null,
+          "fullyImplemented": true,
+          "linearizedBaseContracts": [
+            235
+          ],
+          "name": "TestContract",
+          "scope": 236
+        },
+        "children": [
+          {
+            "attributes": {
+              "constant": false,
+              "name": "test",
+              "scope": 235,
+              "stateVariable": true,
+              "storageLocation": "default",
+              "type": "uint256",
+              "value": null,
+              "visibility": "internal"
+            },
+            "children": [
+              {
+                "attributes": {
+                  "name": "uint",
+                  "type": "uint256"
+                },
+                "id": 225,
+                "name": "ElementaryTypeName",
+                "src": "54:4:3"
+              }
+            ],
+            "id": 226,
+            "name": "VariableDeclaration",
+            "src": "54:9:3"
+          },
+          {
+            "attributes": {
+              "constant": false,
+              "implemented": true,
+              "isConstructor": true,
+              "modifiers": [
+                null
+              ],
+              "name": "TestContract",
+              "payable": false,
+              "scope": 235,
+              "stateMutability": "nonpayable",
+              "superFunction": null,
+              "visibility": "public"
+            },
+            "children": [
+              {
+                "attributes": {
+                  "parameters": [
+                    null
+                  ]
+                },
+                "children": [],
+                "id": 227,
+                "name": "ParameterList",
+                "src": "90:2:3"
+              },
+              {
+                "attributes": {
+                  "parameters": [
+                    null
+                  ]
+                },
+                "children": [],
+                "id": 228,
+                "name": "ParameterList",
+                "src": "100:0:3"
+              },
+              {
+                "children": [
+                  {
+                    "children": [
+                      {
+                        "attributes": {
+                          "argumentTypes": null,
+                          "isConstant": false,
+                          "isLValue": false,
+                          "isPure": false,
+                          "lValueRequested": false,
+                          "operator": "=",
+                          "type": "uint256"
+                        },
+                        "children": [
+                          {
+                            "attributes": {
+                              "argumentTypes": null,
+                              "overloadedDeclarations": [
+                                null
+                              ],
+                              "referencedDeclaration": 226,
+                              "type": "uint256",
+                              "value": "test"
+                            },
+                            "id": 229,
+                            "name": "Identifier",
+                            "src": "108:4:3"
+                          },
+                          {
+                            "attributes": {
+                              "argumentTypes": null,
+                              "hexvalue": "31",
+                              "isConstant": false,
+                              "isLValue": false,
+                              "isPure": true,
+                              "lValueRequested": false,
+                              "subdenomination": null,
+                              "token": "number",
+                              "type": "int_const 1",
+                              "value": "1"
+                            },
+                            "id": 230,
+                            "name": "Literal",
+                            "src": "115:1:3"
+                          }
+                        ],
+                        "id": 231,
+                        "name": "Assignment",
+                        "src": "108:8:3"
+                      }
+                    ],
+                    "id": 232,
+                    "name": "ExpressionStatement",
+                    "src": "108:8:3"
+                  }
+                ],
+                "id": 233,
+                "name": "Block",
+                "src": "100:22:3"
+              }
+            ],
+            "id": 234,
+            "name": "FunctionDefinition",
+            "src": "69:53:3"
+          }
+        ],
+        "id": 235,
+        "name": "ContractDefinition",
+        "src": "26:99:3"
+      }
+    ],
+    "id": 236,
+    "name": "SourceUnit",
+    "src": "0:126:3"
+  },
+  "compiler": {
+    "name": "solc",
+    "version": "0.4.18+commit.9cf6e910.Emscripten.clang"
+  },
+  "networks": {
+    "1516203204392": {
+      "events": {},
+      "links": {},
+      "address": "0x429074f8e7f153e576893e7e294ceae22c60d60d"
+    },
+    "1516215872849": {
+      "events": {},
+      "links": {},
+      "address": "0x572e40cfe8d9349bc408af6a1c94354eed99296f"
+    }
+  },
+  "schemaVersion": "1.0.1",
+  "updatedAt": "2018-01-18T09:26:02.224Z"
+}
